@@ -57,18 +57,18 @@ for my $r (@{$aoa}) {
         die "Invalid first field: $fields[0]";
     }
     my $party_field =
-        $category eq 'state_senate'   ? 3
+        $category eq 'state_senate'   ? 2
       : $category eq 'state_assembly' ? 1
       : die "Bad category";
     my $party = $party_map{ $fields[$party_field] };
     next if (! defined $party);
     my $vote_field =
-        $category eq 'state_senate'   ? 5
+        $category eq 'state_senate'   ? 4
       : $category eq 'state_assembly' ? 3
       : die "Bad category";
     my $votes = $fields[$vote_field];
     $votes =~ s/,//g;
-    $votes =~ s/[^[:ascii:]]$//;
+    $votes =~ s/[^\d]{1,2}$//;
     die "Bad vote value on $row: $votes"
         if ($votes !~ /^\d+$/);
     $counts{$party} += $votes;
