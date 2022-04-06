@@ -4,24 +4,9 @@ use strict;
 use warnings;
 use 5.012;
 
-use DateTime::Format::Excel;
-use Getopt::Long;
-use Try::Tiny;
-
-my $fi_xlsx;
-my $fo_table;
-my $fo_id_list;
-my $n_header_rows = 1;
-my $library_id_col;
-my @description_item_col;
-my @method_item_col;
-my $molecule_type;
-my $host_col;
-my $host_id = 'NA';
-my $sub_underscores = 0;
-
 my $curr_office;
 my %counts;
+my @results;
 
 say join "\t", qw/
     seat
@@ -56,6 +41,14 @@ while (my $line = <STDIN>) {
     $counts{$party} = $votes;
         
 }
+parse_current($row);
+
+for my $result ( sort {
+    $a->[0] cmp $b->[0]
+ || $a->[1] <=> $b->[1]
+} @results) {
+    say join "\t", @{ $result->[2] };
+}
 
 sub parse_current {
 
@@ -70,14 +63,20 @@ sub parse_current {
         : $curr_office =~ /^REPRESENTATIVE TO THE ASSEMBLY DISTRICT \d+$/ ? 'state_assembly'
         : undef; 
     if (defined $category) {
-        say join "\t",
-            $curr_office,
+        my ($district) = ($curr_office =~ /^.+ (\d+)$/);
+        my $seat = join('_', $category, 'district', $district);
+        push @results, [
             $category,
-            ($sorted[0] eq 'Republican' ? 1 : 0),
-            ($sorted[0] eq 'Democrat'   ? 1 : 0),
-            ($counts{'Republican'} // 0),
-            ($counts{'Democrat'} // 0),
-        ;
+            $district,
+            [
+                $seat,
+                $category,
+                ($sorted[0] eq 'Republican' ? 1 : 0),
+                ($sorted[0] eq 'Democrat'   ? 1 : 0),
+                ($counts{'Republican'} // 0),
+                ($counts{'Democrat'} // 0),
+            ],
+        ];
     }
 
 }

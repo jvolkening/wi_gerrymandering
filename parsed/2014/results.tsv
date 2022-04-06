@@ -1,124 +1,125 @@
 seat	category	R_win	D_win	R_votes	D_votes
-CONGRESSIONAL - DISTRICT 1	US_house	1	0	182316	105552
-CONGRESSIONAL - DISTRICT 2	US_house	0	1	103619	224920
-CONGRESSIONAL - DISTRICT 3	US_house	0	1	119540	155368
-CONGRESSIONAL - DISTRICT 4	US_house	0	1	68490	179045
-CONGRESSIONAL - DISTRICT 5	US_house	1	0	231160	101190
-CONGRESSIONAL - DISTRICT 6	US_house	1	0	169767	122212
-CONGRESSIONAL - DISTRICT 7	US_house	0	1	5	112949
-CONGRESSIONAL - DISTRICT 8	US_house	1	0	188553	101345
-STATE SENATE - DISTRICT 1	state_senate	1	0	47438	29555
-STATE SENATE - DISTRICT 3	state_senate	0	1	0	29291
-STATE SENATE - DISTRICT 5	state_senate	1	0	55869	0
-STATE SENATE - DISTRICT 7	state_senate	0	1	28387	41950
-STATE SENATE - DISTRICT 9	state_senate	1	0	43186	28770
-STATE SENATE - DISTRICT 11	state_senate	1	0	43842	25377
-STATE SENATE - DISTRICT 13	state_senate	1	0	48255	28700
-STATE SENATE - DISTRICT 15	state_senate	0	1	24760	36389
-STATE SENATE - DISTRICT 17	state_senate	1	0	34601	28179
-STATE SENATE - DISTRICT 19	state_senate	1	0	41628	31135
-STATE SENATE - DISTRICT 21	state_senate	1	0	44967	28106
-STATE SENATE - DISTRICT 23	state_senate	1	0	39577	25135
-STATE SENATE - DISTRICT 25	state_senate	0	1	33445	35055
-STATE SENATE - DISTRICT 27	state_senate	0	1	0	61920
-STATE SENATE - DISTRICT 29	state_senate	1	0	45887	23917
-STATE SENATE - DISTRICT 31	state_senate	0	1	32317	35508
-STATE SENATE - DISTRICT 33	state_senate	1	0	59199	20899
-ASSEMBLY - DISTRICT 1	state_assembly	1	0	16072	12256
-ASSEMBLY - DISTRICT 2	state_assembly	1	0	18994	0
-ASSEMBLY - DISTRICT 3	state_assembly	1	0	19542	0
-ASSEMBLY - DISTRICT 4	state_assembly	1	0	14467	10026
-ASSEMBLY - DISTRICT 5	state_assembly	1	0	15045	9084
-ASSEMBLY - DISTRICT 6	state_assembly	1	0	18696	0
-ASSEMBLY - DISTRICT 7	state_assembly	0	1	8800	11065
-ASSEMBLY - DISTRICT 8	state_assembly	0	1	1271	5155
-ASSEMBLY - DISTRICT 9	state_assembly	0	1	0	8507
-ASSEMBLY - DISTRICT 10	state_assembly	0	1	0	20242
-ASSEMBLY - DISTRICT 11	state_assembly	0	1	0	17328
-ASSEMBLY - DISTRICT 12	state_assembly	0	1	3	16494
-ASSEMBLY - DISTRICT 13	state_assembly	1	0	20710	0
-ASSEMBLY - DISTRICT 14	state_assembly	1	0	21954	0
-ASSEMBLY - DISTRICT 15	state_assembly	1	0	15427	9057
-ASSEMBLY - DISTRICT 16	state_assembly	0	1	0	16183
-ASSEMBLY - DISTRICT 17	state_assembly	0	1	0	19666
-ASSEMBLY - DISTRICT 18	state_assembly	0	1	0	16522
-ASSEMBLY - DISTRICT 19	state_assembly	0	1	0	18077
-ASSEMBLY - DISTRICT 20	state_assembly	0	1	10481	13400
-ASSEMBLY - DISTRICT 21	state_assembly	1	0	16051	0
-ASSEMBLY - DISTRICT 22	state_assembly	1	0	20607	8789
-ASSEMBLY - DISTRICT 23	state_assembly	1	0	20006	11470
-ASSEMBLY - DISTRICT 24	state_assembly	1	0	21818	0
-ASSEMBLY - DISTRICT 25	state_assembly	1	0	17042	0
-ASSEMBLY - DISTRICT 26	state_assembly	1	0	14352	9064
-ASSEMBLY - DISTRICT 27	state_assembly	1	0	16042	9447
-ASSEMBLY - DISTRICT 28	state_assembly	1	0	12747	7736
-ASSEMBLY - DISTRICT 29	state_assembly	1	0	14953	0
-ASSEMBLY - DISTRICT 30	state_assembly	1	0	13951	8658
-ASSEMBLY - DISTRICT 31	state_assembly	1	0	17721	0
-ASSEMBLY - DISTRICT 32	state_assembly	1	0	13714	7094
-ASSEMBLY - DISTRICT 33	state_assembly	1	0	19429	0
-ASSEMBLY - DISTRICT 34	state_assembly	1	0	22085	0
-ASSEMBLY - DISTRICT 35	state_assembly	1	0	18713	0
-ASSEMBLY - DISTRICT 36	state_assembly	1	0	18504	0
-ASSEMBLY - DISTRICT 37	state_assembly	1	0	14400	10058
-ASSEMBLY - DISTRICT 38	state_assembly	1	0	17481	10281
-ASSEMBLY - DISTRICT 39	state_assembly	1	0	16793	0
-ASSEMBLY - DISTRICT 40	state_assembly	1	0	18424	0
-ASSEMBLY - DISTRICT 41	state_assembly	1	0	13152	8409
-ASSEMBLY - DISTRICT 42	state_assembly	1	0	14238	10518
-ASSEMBLY - DISTRICT 43	state_assembly	0	1	9493	14116
-ASSEMBLY - DISTRICT 44	state_assembly	0	1	6298	13354
-ASSEMBLY - DISTRICT 45	state_assembly	0	1	0	12856
-ASSEMBLY - DISTRICT 46	state_assembly	0	1	0	20014
-ASSEMBLY - DISTRICT 47	state_assembly	0	1	0	20332
-ASSEMBLY - DISTRICT 48	state_assembly	0	1	0	23423
-ASSEMBLY - DISTRICT 49	state_assembly	1	0	12240	7689
-ASSEMBLY - DISTRICT 50	state_assembly	1	0	11775	8600
-ASSEMBLY - DISTRICT 51	state_assembly	1	0	10642	10577
-ASSEMBLY - DISTRICT 52	state_assembly	1	0	17523	0
-ASSEMBLY - DISTRICT 53	state_assembly	1	0	17618	0
-ASSEMBLY - DISTRICT 54	state_assembly	0	1	10571	11228
-ASSEMBLY - DISTRICT 55	state_assembly	1	0	14027	10240
-ASSEMBLY - DISTRICT 56	state_assembly	1	0	20844	0
-ASSEMBLY - DISTRICT 57	state_assembly	0	1	9432	11162
-ASSEMBLY - DISTRICT 58	state_assembly	1	0	22087	0
-ASSEMBLY - DISTRICT 59	state_assembly	1	0	22417	0
-ASSEMBLY - DISTRICT 60	state_assembly	1	0	24066	5
-ASSEMBLY - DISTRICT 61	state_assembly	1	0	17452	0
-ASSEMBLY - DISTRICT 62	state_assembly	1	0	18761	0
-ASSEMBLY - DISTRICT 63	state_assembly	1	0	15361	8917
-ASSEMBLY - DISTRICT 64	state_assembly	0	1	0	13887
-ASSEMBLY - DISTRICT 65	state_assembly	0	1	0	11599
-ASSEMBLY - DISTRICT 66	state_assembly	0	1	0	12062
-ASSEMBLY - DISTRICT 67	state_assembly	1	0	13353	8691
-ASSEMBLY - DISTRICT 68	state_assembly	1	0	11289	10076
-ASSEMBLY - DISTRICT 69	state_assembly	1	0	14233	6380
-ASSEMBLY - DISTRICT 70	state_assembly	1	0	11766	10508
-ASSEMBLY - DISTRICT 71	state_assembly	0	1	0	17134
-ASSEMBLY - DISTRICT 72	state_assembly	1	0	13113	10317
-ASSEMBLY - DISTRICT 73	state_assembly	0	1	0	15602
-ASSEMBLY - DISTRICT 74	state_assembly	0	1	10862	14663
-ASSEMBLY - DISTRICT 75	state_assembly	1	0	11730	9643
-ASSEMBLY - DISTRICT 76	state_assembly	0	1	0	27102
-ASSEMBLY - DISTRICT 77	state_assembly	0	1	0	25268
-ASSEMBLY - DISTRICT 78	state_assembly	0	1	0	23014
-ASSEMBLY - DISTRICT 79	state_assembly	0	1	11406	18843
-ASSEMBLY - DISTRICT 80	state_assembly	0	1	0	21633
-ASSEMBLY - DISTRICT 81	state_assembly	0	1	10892	12934
-ASSEMBLY - DISTRICT 82	state_assembly	1	0	19210	0
-ASSEMBLY - DISTRICT 83	state_assembly	1	0	21382	7877
-ASSEMBLY - DISTRICT 84	state_assembly	1	0	19700	0
-ASSEMBLY - DISTRICT 85	state_assembly	1	0	11167	11082
-ASSEMBLY - DISTRICT 86	state_assembly	1	0	15875	9528
-ASSEMBLY - DISTRICT 87	state_assembly	0	1	52	7098
-ASSEMBLY - DISTRICT 88	state_assembly	1	0	12915	10046
-ASSEMBLY - DISTRICT 89	state_assembly	1	0	18483	0
-ASSEMBLY - DISTRICT 90	state_assembly	0	1	5342	7953
-ASSEMBLY - DISTRICT 91	state_assembly	0	1	0	14686
-ASSEMBLY - DISTRICT 92	state_assembly	0	1	9096	11862
-ASSEMBLY - DISTRICT 93	state_assembly	1	0	13367	10749
-ASSEMBLY - DISTRICT 94	state_assembly	0	1	11617	13670
-ASSEMBLY - DISTRICT 95	state_assembly	0	1	0	17037
-ASSEMBLY - DISTRICT 96	state_assembly	1	0	12683	8839
-ASSEMBLY - DISTRICT 97	state_assembly	1	0	17804	0
-ASSEMBLY - DISTRICT 98	state_assembly	1	0	21357	0
+US_house_district_1	US_house	1	0	182316	105552
+US_house_district_2	US_house	0	1	103619	224920
+US_house_district_3	US_house	0	1	119540	155368
+US_house_district_4	US_house	0	1	68490	179045
+US_house_district_5	US_house	1	0	231160	101190
+US_house_district_6	US_house	1	0	169767	122212
+US_house_district_7	US_house	0	1	5	112949
+US_house_district_8	US_house	1	0	188553	101345
+state_assembly_district_1	state_assembly	1	0	16072	12256
+state_assembly_district_2	state_assembly	1	0	18994	0
+state_assembly_district_3	state_assembly	1	0	19542	0
+state_assembly_district_4	state_assembly	1	0	14467	10026
+state_assembly_district_5	state_assembly	1	0	15045	9084
+state_assembly_district_6	state_assembly	1	0	18696	0
+state_assembly_district_7	state_assembly	0	1	8800	11065
+state_assembly_district_8	state_assembly	0	1	1271	5155
+state_assembly_district_9	state_assembly	0	1	0	8507
+state_assembly_district_10	state_assembly	0	1	0	20242
+state_assembly_district_11	state_assembly	0	1	0	17328
+state_assembly_district_12	state_assembly	0	1	3	16494
+state_assembly_district_13	state_assembly	1	0	20710	0
+state_assembly_district_14	state_assembly	1	0	21954	0
+state_assembly_district_15	state_assembly	1	0	15427	9057
+state_assembly_district_16	state_assembly	0	1	0	16183
+state_assembly_district_17	state_assembly	0	1	0	19666
+state_assembly_district_18	state_assembly	0	1	0	16522
+state_assembly_district_19	state_assembly	0	1	0	18077
+state_assembly_district_20	state_assembly	0	1	10481	13400
+state_assembly_district_21	state_assembly	1	0	16051	0
+state_assembly_district_22	state_assembly	1	0	20607	8789
+state_assembly_district_23	state_assembly	1	0	20006	11470
+state_assembly_district_24	state_assembly	1	0	21818	0
+state_assembly_district_25	state_assembly	1	0	17042	0
+state_assembly_district_26	state_assembly	1	0	14352	9064
+state_assembly_district_27	state_assembly	1	0	16042	9447
+state_assembly_district_28	state_assembly	1	0	12747	7736
+state_assembly_district_29	state_assembly	1	0	14953	0
+state_assembly_district_30	state_assembly	1	0	13951	8658
+state_assembly_district_31	state_assembly	1	0	17721	0
+state_assembly_district_32	state_assembly	1	0	13714	7094
+state_assembly_district_33	state_assembly	1	0	19429	0
+state_assembly_district_34	state_assembly	1	0	22085	0
+state_assembly_district_35	state_assembly	1	0	18713	0
+state_assembly_district_36	state_assembly	1	0	18504	0
+state_assembly_district_37	state_assembly	1	0	14400	10058
+state_assembly_district_38	state_assembly	1	0	17481	10281
+state_assembly_district_39	state_assembly	1	0	16793	0
+state_assembly_district_40	state_assembly	1	0	18424	0
+state_assembly_district_41	state_assembly	1	0	13152	8409
+state_assembly_district_42	state_assembly	1	0	14238	10518
+state_assembly_district_43	state_assembly	0	1	9493	14116
+state_assembly_district_44	state_assembly	0	1	6298	13354
+state_assembly_district_45	state_assembly	0	1	0	12856
+state_assembly_district_46	state_assembly	0	1	0	20014
+state_assembly_district_47	state_assembly	0	1	0	20332
+state_assembly_district_48	state_assembly	0	1	0	23423
+state_assembly_district_49	state_assembly	1	0	12240	7689
+state_assembly_district_50	state_assembly	1	0	11775	8600
+state_assembly_district_51	state_assembly	1	0	10642	10577
+state_assembly_district_52	state_assembly	1	0	17523	0
+state_assembly_district_53	state_assembly	1	0	17618	0
+state_assembly_district_54	state_assembly	0	1	10571	11228
+state_assembly_district_55	state_assembly	1	0	14027	10240
+state_assembly_district_56	state_assembly	1	0	20844	0
+state_assembly_district_57	state_assembly	0	1	9432	11162
+state_assembly_district_58	state_assembly	1	0	22087	0
+state_assembly_district_59	state_assembly	1	0	22417	0
+state_assembly_district_60	state_assembly	1	0	24066	5
+state_assembly_district_61	state_assembly	1	0	17452	0
+state_assembly_district_62	state_assembly	1	0	18761	0
+state_assembly_district_63	state_assembly	1	0	15361	8917
+state_assembly_district_64	state_assembly	0	1	0	13887
+state_assembly_district_65	state_assembly	0	1	0	11599
+state_assembly_district_66	state_assembly	0	1	0	12062
+state_assembly_district_67	state_assembly	1	0	13353	8691
+state_assembly_district_68	state_assembly	1	0	11289	10076
+state_assembly_district_69	state_assembly	1	0	14233	6380
+state_assembly_district_70	state_assembly	1	0	11766	10508
+state_assembly_district_71	state_assembly	0	1	0	17134
+state_assembly_district_72	state_assembly	1	0	13113	10317
+state_assembly_district_73	state_assembly	0	1	0	15602
+state_assembly_district_74	state_assembly	0	1	10862	14663
+state_assembly_district_75	state_assembly	1	0	11730	9643
+state_assembly_district_76	state_assembly	0	1	0	27102
+state_assembly_district_77	state_assembly	0	1	0	25268
+state_assembly_district_78	state_assembly	0	1	0	23014
+state_assembly_district_79	state_assembly	0	1	11406	18843
+state_assembly_district_80	state_assembly	0	1	0	21633
+state_assembly_district_81	state_assembly	0	1	10892	12934
+state_assembly_district_82	state_assembly	1	0	19210	0
+state_assembly_district_83	state_assembly	1	0	21382	7877
+state_assembly_district_84	state_assembly	1	0	19700	0
+state_assembly_district_85	state_assembly	1	0	11167	11082
+state_assembly_district_86	state_assembly	1	0	15875	9528
+state_assembly_district_87	state_assembly	0	1	52	7098
+state_assembly_district_88	state_assembly	1	0	12915	10046
+state_assembly_district_89	state_assembly	1	0	18483	0
+state_assembly_district_90	state_assembly	0	1	5342	7953
+state_assembly_district_91	state_assembly	0	1	0	14686
+state_assembly_district_92	state_assembly	0	1	9096	11862
+state_assembly_district_93	state_assembly	1	0	13367	10749
+state_assembly_district_94	state_assembly	0	1	11617	13670
+state_assembly_district_95	state_assembly	0	1	0	17037
+state_assembly_district_96	state_assembly	1	0	12683	8839
+state_assembly_district_97	state_assembly	1	0	17804	0
+state_assembly_district_98	state_assembly	1	0	21357	0
+state_assembly_district_99	state_assembly	1	0	23232	6593
+state_senate_district_1	state_senate	1	0	47438	29555
+state_senate_district_3	state_senate	0	1	0	29291
+state_senate_district_5	state_senate	1	0	55869	0
+state_senate_district_7	state_senate	0	1	28387	41950
+state_senate_district_9	state_senate	1	0	43186	28770
+state_senate_district_11	state_senate	1	0	43842	25377
+state_senate_district_13	state_senate	1	0	48255	28700
+state_senate_district_15	state_senate	0	1	24760	36389
+state_senate_district_17	state_senate	1	0	34601	28179
+state_senate_district_19	state_senate	1	0	41628	31135
+state_senate_district_21	state_senate	1	0	44967	28106
+state_senate_district_23	state_senate	1	0	39577	25135
+state_senate_district_25	state_senate	0	1	33445	35055
+state_senate_district_27	state_senate	0	1	0	61920
+state_senate_district_29	state_senate	1	0	45887	23917
+state_senate_district_31	state_senate	0	1	32317	35508
+state_senate_district_33	state_senate	1	0	59199	20899
