@@ -37,14 +37,31 @@ for my $fn (@ARGV) {
     for my $row (1..$sheet->maxrow()) {
 
         # handle race header
-        if ($sheet->cell(1,$row) eq 'DATE') {
+        next if (! defined $sheet->cell(2, $row));
+        if ($sheet->cell(1, $row) eq 'DATE') {
+
+            if (defined $curr_office) {
+                parse_current($row);
+                $curr_office = undef;
+                @parties = ();
+                %counts = ();
+            }
+
             my @row = $sheet->row($row);
             @parties = @row[17..$#row];
         }
 
         # get current race
-        elsif (! defined $curr_office && $sheet->cell(3,$row) eq 'GENERAL') {
-            $curr_office = $sheet->cell(5, $row);
+        elsif ($sheet->cell(3,$row) eq 'GENERAL') {
+            $curr_office //= $sheet->cell(5, $row);
+            my @row = $sheet->row($row);
+            my @votes = @row[17..$#row];
+
+            my @parties = map {defined $_ ? $party_map{$_} : undef} @parties;
+            for (0..$#parties) {
+                next if (! defined $parties[$_]);
+                $counts{$parties[$_]} += $votes[$_];
+            }
         }
 
         # get vote totals
@@ -56,16 +73,15 @@ for my $fn (@ARGV) {
             @parties = map {defined $_ ? $party_map{$_} : undef} @parties;
             for (0..$#parties) {
                 next if (! defined $parties[$_]);
-                $counts{$parties[$_]} += $votes[$_];
+                if ($counts{$parties[$_]} != $votes[$_]) {
+                    die "Vote total mismatch at $fn, $row (exp. $counts{$parties[$_]}, got $votes[$_])\n";
+                }
             }
-            parse_current($row);
-
-            $curr_office = undef;
-            @parties = ();
-            %counts = ();
         }
 
     }
+
+    parse_current('final');
 
 }
 
