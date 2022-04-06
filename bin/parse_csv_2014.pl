@@ -65,9 +65,9 @@ sub parse_current {
     my @sorted = sort {$counts{$b} <=> $counts{$a}} keys %counts;
     my $winning_party = $sorted[0];
     my $category =
-          $curr_office =~ /^REPRESENTATIVE IN CONGRESS DISTRICT \d+$/     ? 'US_house'
-        : $curr_office =~ /^STATE SENATOR DISTRICT \d+$/                  ? 'state_senate'
-        : $curr_office =~ /^REPRESENTATIVE TO THE ASSEMBLY DISTRICT \d+$/ ? 'state_assembly'
+          $curr_office =~ /^CONGRESSIONAL - DISTRICT \d+$/     ? 'US_house'
+        : $curr_office =~ /^STATE SENATE - DISTRICT \d+$/                  ? 'state_senate'
+        : $curr_office =~ /^ASSEMBLY - DISTRICT \d+$/ ? 'state_assembly'
         : undef; 
     if (defined $category) {
         say join "\t",

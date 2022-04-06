@@ -47,9 +47,9 @@ while (my $line = <STDIN>) {
         next;
     }
     next if (! defined $curr_office);
-    my $party = $fields[11];
+    my $party = $fields[10];
     next if (! length $party);
-    my $votes = $fields[5];
+    my $votes = $fields[4];
     $votes =~ s/,//g;
     die "Invalid vote count ($votes) at row $row\n"
         if ($votes !~ /^\d+$/);
@@ -65,9 +65,9 @@ sub parse_current {
     my @sorted = sort {$counts{$b} <=> $counts{$a}} keys %counts;
     my $winning_party = $sorted[0];
     my $category =
-          $curr_office =~ /^REPRESENTATIVE IN CONGRESS DISTRICT \d+$/     ? 'US_house'
-        : $curr_office =~ /^STATE SENATOR DISTRICT \d+$/                  ? 'state_senate'
-        : $curr_office =~ /^REPRESENTATIVE TO THE ASSEMBLY DISTRICT \d+$/ ? 'state_assembly'
+          $curr_office =~ /^CONGRESSIONAL - DISTRICT \d+$/     ? 'US_house'
+        : $curr_office =~ /^STATE SENATE - DISTRICT \d+$/                  ? 'state_senate'
+        : $curr_office =~ /^ASSEMBLY - DISTRICT \d+$/ ? 'state_assembly'
         : undef; 
     if (defined $category) {
         say join "\t",

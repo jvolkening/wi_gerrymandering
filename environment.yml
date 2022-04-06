@@ -1,0 +1,8 @@
+name: gerrymandering
+channels:
+ - bioconda
+ - conda-forge
+ - defaults
+dependencies:
+ - csvkit
+ - r-tidyverse
