@@ -14,7 +14,7 @@ state_assembly_district_4	state_assembly	1	0	17811	15804
 state_assembly_district_5	state_assembly	1	0	29401	0
 state_assembly_district_6	state_assembly	1	0	21283	9378
 state_assembly_district_7	state_assembly	0	1	0	19431
-state_assembly_district_8	state_assembly	1	0	2375	0
+state_assembly_district_8	state_assembly	0	1	2375	8914
 state_assembly_district_9	state_assembly	0	1	4458	11981
 state_assembly_district_10	state_assembly	0	1	0	22208
 state_assembly_district_11	state_assembly	0	1	3299	18329
@@ -118,7 +118,7 @@ state_senate_district_18	state_senate	1	0	52490	36274
 state_senate_district_20	state_senate	1	0	87715	0
 state_senate_district_22	state_senate	0	1	0	55214
 state_senate_district_24	state_senate	1	0	53720	41419
-state_senate_district_26	state_senate	0	1	0	0
+state_senate_district_26	state_senate	0	1	0	102569
 state_senate_district_28	state_senate	1	0	64179	43391
 state_senate_district_30	state_senate	1	0	47948	39711
 state_senate_district_32	state_senate	0	1	48295	48877

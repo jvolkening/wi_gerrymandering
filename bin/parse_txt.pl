@@ -64,6 +64,7 @@ for my $fn (@ARGV) {
             my $vote_str = $1;
             $vote_str =~ s/,//g;
             my @votes = split ' ', $vote_str;
+            shift @votes; # remove total
 
             my @parties = map {defined $_ ? $party_map{$_} : undef} @parties;
             for (0..$#parties) {

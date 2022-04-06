@@ -38,7 +38,7 @@ while (my $line = <STDIN>) {
     $votes =~ s/,//g;
     die "Invalid vote count ($votes) at row $row\n"
         if ($votes !~ /^\d+$/);
-    $counts{$party} = $votes;
+    $counts{$party} += $votes;
         
 }
 parse_current($row);

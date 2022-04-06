@@ -5,7 +5,7 @@ US_house_district_3	US_house	0	1	119540	155368
 US_house_district_4	US_house	0	1	68490	179045
 US_house_district_5	US_house	1	0	231160	101190
 US_house_district_6	US_house	1	0	169767	122212
-US_house_district_7	US_house	0	1	5	112949
+US_house_district_7	US_house	1	0	169896	112949
 US_house_district_8	US_house	1	0	188553	101345
 state_assembly_district_1	state_assembly	1	0	16072	12256
 state_assembly_district_2	state_assembly	1	0	18994	0
@@ -93,7 +93,7 @@ state_assembly_district_83	state_assembly	1	0	21382	7877
 state_assembly_district_84	state_assembly	1	0	19700	0
 state_assembly_district_85	state_assembly	1	0	11167	11082
 state_assembly_district_86	state_assembly	1	0	15875	9528
-state_assembly_district_87	state_assembly	0	1	52	7098
+state_assembly_district_87	state_assembly	1	0	14173	7098
 state_assembly_district_88	state_assembly	1	0	12915	10046
 state_assembly_district_89	state_assembly	1	0	18483	0
 state_assembly_district_90	state_assembly	0	1	5342	7953

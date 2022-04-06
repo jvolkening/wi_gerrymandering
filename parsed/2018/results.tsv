@@ -1,11 +1,11 @@
 seat	category	R_win	D_win	R_votes	D_votes
 US_house_district_1	US_house	1	0	177492	137508
-US_house_district_2	US_house	1	0	29	1
+US_house_district_2	US_house	0	1	29	309117
 US_house_district_3	US_house	0	1	126980	187888
 US_house_district_4	US_house	0	1	59091	206487
-US_house_district_5	US_house	1	0	225619	1
+US_house_district_5	US_house	1	0	225619	138386
 US_house_district_6	US_house	1	0	180311	144536
-US_house_district_7	US_house	1	0	194061	3
+US_house_district_7	US_house	1	0	194061	124310
 US_house_district_8	US_house	1	0	209410	119265
 state_assembly_district_1	state_assembly	1	0	20651	0
 state_assembly_district_2	state_assembly	1	0	15014	10118
@@ -28,7 +28,7 @@ state_assembly_district_18	state_assembly	0	1	0	17426
 state_assembly_district_19	state_assembly	0	1	0	27543
 state_assembly_district_20	state_assembly	0	1	0	20245
 state_assembly_district_21	state_assembly	1	0	14280	11806
-state_assembly_district_22	state_assembly	0	1	2	11738
+state_assembly_district_22	state_assembly	1	0	21155	11738
 state_assembly_district_23	state_assembly	1	0	18321	16939
 state_assembly_district_24	state_assembly	1	0	17650	15244
 state_assembly_district_25	state_assembly	1	0	14785	9042
@@ -38,7 +38,7 @@ state_assembly_district_28	state_assembly	1	0	14441	10028
 state_assembly_district_29	state_assembly	1	0	12523	9750
 state_assembly_district_30	state_assembly	1	0	15240	13015
 state_assembly_district_31	state_assembly	1	0	15299	11305
-state_assembly_district_32	state_assembly	0	1	2	10182
+state_assembly_district_32	state_assembly	1	0	14815	10182
 state_assembly_district_33	state_assembly	1	0	17236	10219
 state_assembly_district_34	state_assembly	1	0	19699	12096
 state_assembly_district_35	state_assembly	1	0	16380	9714
@@ -104,7 +104,7 @@ state_assembly_district_94	state_assembly	0	1	11567	17498
 state_assembly_district_95	state_assembly	0	1	0	21989
 state_assembly_district_96	state_assembly	1	0	12327	11536
 state_assembly_district_97	state_assembly	1	0	18945	0
-state_assembly_district_98	state_assembly	1	0	0	0
+state_assembly_district_98	state_assembly	1	0	23005	0
 state_assembly_district_99	state_assembly	1	0	26251	0
 state_senate_district_1	state_senate	1	0	47289	39414
 state_senate_district_3	state_senate	0	1	0	36875
